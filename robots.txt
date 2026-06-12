@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://holden-m-rasmussen.github.io/sitemap.xml

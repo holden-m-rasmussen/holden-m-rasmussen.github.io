@@ -380,6 +380,17 @@ h3 {
   .media-grid { grid-template-columns: 1fr; }
 }
 
+/* ── Conference Presentations ──────────────────────────────────── */
+.conf-presentations {
+  margin-top: 3rem;
+  border-top: 1px solid var(--border);
+  padding-top: 2rem;
+}
+
+.conf-presentations h3 {
+  margin-bottom: 1.25rem;
+}
+
 /* ── Teaching ──────────────────────────────────────────────────── */
 .teaching-grid {
   display: grid;

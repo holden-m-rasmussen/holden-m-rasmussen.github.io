@@ -33,6 +33,14 @@ a {
 }
 a:hover { text-decoration: underline; }
 
+/* ── Cursor: small red dot with a cream edge so it stays visible on the banner.
+      Falls back to the normal pointer anywhere the image cannot load; links
+      and buttons keep their usual hand. ──────────────────────────────────── */
+body {
+  cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20'%3E%3Ccircle cx='10' cy='10' r='6' fill='%23B8102A' stroke='%23F5ECD7' stroke-width='2'/%3E%3C/svg%3E") 10 10, auto;
+}
+a, button, summary { cursor: pointer; }
+
 /* ── Navigation ────────────────────────────────────────────────── */
 nav {
   position: sticky;
